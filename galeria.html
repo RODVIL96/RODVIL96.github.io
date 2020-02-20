@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyectos | SteelPerú</title>
+    <!--meta:vp-->
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=3.0, minimum-scale=1.0"> 
+     <!--referencis a css-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">  
+    <!--referencia a icnonos en fontastic-->
+    <link rel="stylesheet" href="css/font.css">
+    
+</head>
+<body>
+   <div class="modal" id="modal">
+       <div class="modal__content">
+           <img src="" alt="" class="modal__img" id="modal__img">
+       </div>
+       <div class="modal__boton" id="modal__boton">X</div>
+   </div>
+    <!--header.main-header>.container-->
+   <header class="main-header">
+        <div class="container container--flex">
+            <!--.logo-container>h1.logo  si queires puedes colocar img en vez e h1 en vez de una imagen como logo -->
+            <div class="logo-container column column--50">
+                <h1 class="logo">SteelPerú</h1>
+            </div>
+            <!--.main-header__contactInfo>.main-header__contactIfo__phone-->
+            
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <!--span.icon-phone-->
+                    <span class="icon-phone">976-358-097</span>
+                </p>
+                <!--.main-header__contactInfo__address-->
+                <p class="main-header_contactInfo__address">
+                    <span class="icon-location">Jr. Cinco Esquinas Nº 1617 Dpto: 701 - Cajamarca</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <!--nav.main-nav>.container-->
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <!--ul.menu#menu>li.menu__item*4>a.menu_link-->
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Proyectos</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <!-- .social-icon>a.social-icon__link*3>span.icon- -->
+            <div class="social-icon">
+                <a href="https://www.facebook.com/steel.peruingenieros" class="social-icon__link" target="_blank"><span class="icon-facebook"></span></a>
+                <!--<a href="" class="social-icon__link"><span class="icon-twitter"></span></a>-->
+                <a href="contacto.html" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    <!-- section.banner>img.banner__img+.banner__content -->
+    <section class="banner">
+        <img src="img/bannergaleria.jpg" alt="" class="banner__img">
+        <div class="banner__content">Calidad, efectividad, responsabilidad y compromiso</div>
+    </section>
+    
+    <!-- main.main>section.group -->
+    <main class="main">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestros Proyectos</h2>
+            <div class="container container--flex">
+                <!--<div class="column column--50-25">
+                    <img src="img/galeria/g1.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/galeria/g2.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g3.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g4.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g5.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/galeria/g6.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g7.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g8.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>-->
+                
+                <div class="column column--50-25">
+                    <img src="img/galeria/g1.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g2.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g3.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g4.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g5.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g6.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g7.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/galeria/g8.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/galeria/g9.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué trabajar con nosotros?</h2>
+                <p class="column__txt"> Porque somos profesionales con experiencia en la dirección y ejecución de proyectos. Proponiendo las mejores alternativas para organizar y administrar los recursos dentro de los plazos y costos.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Jr. Cinco Esquinas Nº 1617 Dpto: 701</p>
+                <p class="column__txt">976358097</p>
+                <p class="column__txt">steelperu@gmail.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Redes sociales</h2>
+                <p class="column__txt"><a href="https://www.facebook.com/steel.peruingenieros" class="icon-facebook" target="_blank">facebook</a></p>
+                <!--<p class="column__txt"><a href="" class="icon-twitter">siguenos</a></p>
+                <p class="column__txt"><a href="" class="icon-youtube">visita neustro canal </a></p>-->
+            </div>
+            <p class="copy">Copyright 2020 © SteelPerú. Todos los derechos reservados<br> RAVC Diseño Web </p>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>
+
+
+
+
